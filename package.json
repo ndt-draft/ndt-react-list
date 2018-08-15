@@ -1,7 +1,14 @@
 {
   "name": "ndt-react-list",
   "version": "1.0.3",
-  "description": "",
+  "description": "React list component by ndt",
+  "keywords": "react, list",
+  "homepage": "https://github.com/ndt-draft/ndt-react-list",
+  "bugs": {
+    "url": "https://github.com/ndt-draft/ndt-react-list/issues",
+    "email": "thanh4890@gmail.com"
+  },
+  "repository": "https://github.com/ndt-draft/ndt-react-list",
   "main": "dist/index.js",
   "dependencies": {
     "react": "^16.4.2",
@@ -32,6 +39,6 @@
     "deploy": "gh-pages -d examples/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
-  "author": "Thanh Nguyen Dac",
+  "author": "Thanh Nguyen Dac <thanh4890@gmail.com> (https://thanh4890.github.io)",
   "license": "ISC"
 }
