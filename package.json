@@ -3,7 +3,8 @@
   "version": "1.0.5",
   "description": "React list component by ndt",
   "keywords": [
-    "react, list"
+    "react",
+    "list"
   ],
   "homepage": "https://github.com/ndt-draft/ndt-react-list",
   "bugs": {
