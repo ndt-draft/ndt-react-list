@@ -2,7 +2,9 @@
   "name": "ndt-react-list",
   "version": "1.0.4",
   "description": "React list component by ndt",
-  "keywords": "react, list",
+  "keywords": [
+    "react, list"
+  ],
   "homepage": "https://github.com/ndt-draft/ndt-react-list",
   "bugs": {
     "url": "https://github.com/ndt-draft/ndt-react-list/issues",
@@ -15,7 +17,7 @@
     "react-dom": "^16.4.2"
   },
   "devDependencies": {
-    "@storybook/react": "alpha",
+    "@storybook/react": "^4.0.0-alpha",
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
@@ -39,6 +41,10 @@
     "deploy": "gh-pages -d examples/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
-  "author": "Thanh Nguyen Dac <thanh4890@gmail.com> (https://thanh4890.github.io)",
+  "author": {
+    "name": "Thanh Nguyen Dac",
+    "email": "thanh4890@gmail.com",
+    "url": "https://thanh4890.github.io"
+  },
   "license": "ISC"
 }
