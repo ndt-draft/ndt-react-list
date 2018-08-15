@@ -1,3 +1,9 @@
+# ndt-react-list
+
+> React list by ndt 💪
+
+[![npm version](https://img.shields.io/npm/v/ndt-react-list.svg)](https://www.npmjs.com/package/ndt-react-list)
+
 # Installation
 ```
 npm install --save ndt-react-list
