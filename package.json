@@ -23,9 +23,11 @@
     "webpack-dev-server": "^3.1.5"
   },
   "scripts": {
+    "start": "webpack-dev-server --mode development",
     "transpile": "babel src -d dist --copy-files",
     "prepublishOnly": "npm run transpile",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC"
