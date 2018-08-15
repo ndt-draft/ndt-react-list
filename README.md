@@ -10,11 +10,13 @@ npm install --save ndt-react-list
 ```
 
 # Usage
+
+## Without text field
+
 ```
 // example.js
 
 import React from 'react'
-import ReactDOM from 'react-dom'
 import List from 'ndt-react-list'
 
 const posts = [
@@ -31,6 +33,35 @@ const posts = [
 const Example = () => (
   <div className="example">
     <List collection={posts} titleKey="title" />
+  </div>
+)
+
+export default Example
+```
+
+## With text field
+```
+// example.js
+
+import React from 'react'
+import List from 'ndt-react-list'
+
+const posts2 = [
+  {
+    id: 1,
+    title: 'Create Apps with No Configuration',
+    text: 'text field 1'
+  },
+  {
+    id: 2,
+    title: 'Mixins Considered Harmful',
+    text: 'text field 2'
+  },
+]
+
+const Example = () => (
+  <div className="example">
+    <List collection={posts2} titleKey="title" textKey="text" />
   </div>
 )
 
