@@ -97,3 +97,6 @@ to link this package locally
 ```
 npm run publish-demo
 ```
+
+# Resources
+* https://medium.com/dailyjs/building-a-react-component-with-webpack-publish-to-npm-deploy-to-github-guide-6927f60b3220
